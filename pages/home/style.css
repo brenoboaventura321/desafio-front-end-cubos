@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    margin: 54px 0px 54px 0px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li {
+    margin-left: 8px;
+    display: inline;
+}
+
+a {
+    color: #33323D;
+    text-decoration: none;
+}
+
+li a.enter{
+    color: #5FB4A2;
+}
+
+h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 50px;
+    color: ;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.cyan {
+    color: #5FB4A2;
+}
+
+.dark-blue{
+    color: #203A4C;
+}
+
+.grayish-blue{
+    color: #33323D;
+}
+
+.box-master img {
+    width: 100%;
+}
+
+.box-master {
+    margin: 54px;
+    display: flex;
+    width: 1110px;
+    height: 600px;
+    position: relative;
+}
+
+.mini-box {
+    background-color: #fff;
+    width: 445px;
+    height: 357px;
+    position: absolute;
+    bottom: 0;
+}
+
+.mini-box .div-h1{
+    height: 390px;
+    /* margin: 22px 58px 22px 58px; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.button-sobre {
+    width: 200px;
+    height: 48px;
+    border:1px solid #203A4C;
+    position: absolute;
+    bottom: 0;
+}
+
+.button-sobre button {
+    height: 100%;
+    border: none;
+    text-align: right;
+    padding: 10px;
+    position:absolute;
+    right: 0;
+}
