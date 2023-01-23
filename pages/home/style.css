@@ -5,16 +5,10 @@
 }
 
 body {
-    font-family: 'Public Sans', sans-serif;
-    font-size: 16px;
+    
+
 }
 
-header {
-    margin: 54px 0px 54px 0px;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
 
 li {
     margin-left: 8px;
@@ -22,6 +16,7 @@ li {
 }
 
 a {
+    text-decoration-color: none;
     color: #33323D;
     text-decoration: none;
 }
@@ -31,17 +26,69 @@ li a.enter{
 }
 
 h1 {
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
     font-size: 50px;
-    color: ;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color: #33323D;
 }
 
 h2 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
     font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
 }
 
 h3 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
     font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+
+    letter-spacing: -0.285714px;
+
+    color: #33323D;
+}
+
+p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+}
+
+button {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header {
+    margin-bottom: ;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+}
+
+#corpo {
+    margin: 64px 164px 0px 164px;
 }
 
 .cyan {
@@ -61,10 +108,10 @@ h3 {
 }
 
 .box-master {
-    margin: 54px;
+    /* width: 1110px;
+    height: 600px; */
+    margin: 0px 0px 150px 0px;
     display: flex;
-    width: 1110px;
-    height: 600px;
     position: relative;
 }
 
@@ -72,31 +119,118 @@ h3 {
     background-color: #fff;
     width: 445px;
     height: 357px;
+
+    padding: 28px;
+
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+}
+
+.button-sobre{
     position: absolute;
     bottom: 0;
 }
 
-.mini-box .div-h1{
-    height: 390px;
-    /* margin: 22px 58px 22px 58px; */
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-
-.button-sobre {
+.button-sobre a{
     width: 200px;
     height: 48px;
-    border:1px solid #203A4C;
-    position: absolute;
-    bottom: 0;
+    background-color: #203A4C;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
 }
 
 .button-sobre button {
-    height: 100%;
+    background-color: #203A4C;
     border: none;
-    text-align: right;
-    padding: 10px;
-    position:absolute;
-    right: 0;
+    color: #ffffff;
+    
+    margin-right: 34px;
+    cursor: pointer;
+
+
+}
+
+
+.img-button img {
+    width: 16px;
+    height: 12px;
+}
+
+.img-button {
+    background: #00000025;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-padrao {
+    margin: 0px 0px 150px 0px;
+
+    width: 1110px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box-padrao img {
+    max-width: 540px;
+    max-height: 600px;
+}
+
+.texto-padrao {
+    padding: 50px;
+    width: 430px;
+    height: 601px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-padrao p {
+    width: 502px;
+}
+
+.pre-footer {
+    margin: 0px 0px 150px 0px;
+
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    height: 80px;
+
+    padding-left: 164px;
+    padding-right: 164px;
+    
+    background-color: #33323D;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+}
+
+footer a, footer li a.enter {
+    color: #ffffff;
+}
+
+.menu-footer li {
+    margin-right: 33px;
 }
