@@ -17,32 +17,72 @@
 </head>
 
 <body>
-    <header>
-        <img src="/assets/logo-dark.svg" alt="icone setas">
-        <div class="menu">
-            <ul>
-                <li> <a class="enter" href="#">HOME</a></li>
-                <li> <a href="#">PORTIFOLIO</a></li>
-                <li> <a href="#">CONTATO</a></li>
-            </ul>
-        </div>
-    </header>
+    <div id="corpo">
+        <header>
+            <img src="/assets/logo-dark.svg" alt="icone setas">
+            <div class="menu">
+                <ul>
+                    <li> <a class="enter" href="#">HOME</a></li>
+                    <li> <a href="#">PORTIFOLIO</a></li>
+                    <li> <a href="#">CONTATO</a></li>
+                </ul>
+            </div>
+        </header>
 
-    <div class="corpo">
-        <div class="box-master">
-            <img src="/assets/home/image-homepage-hero.jpg" alt="banner principal">
-            <div class="mini-box">
-                <div class="div-h1">
-                    <h1>Olá, me chamo Alex Spencer e eu amo construir websites lindos</h1>
+        <div class="corpo">
+            <div class="banner box-master">
+                <img src="/assets/home/image-homepage-hero.jpg" alt="banner principal">
+                <div class="mini-box">
+                    <div class="div-h1">
+                        <h1>Olá, me chamo Alex Spencer e eu amo construir websites lindos</h1>
+                    </div>
                 </div>
-
                 <div class="button-sobre">
-                    <button>SOBRE MIM</button>
+                    <a href="#sobre-mim">
+                        <div class="img-button"><img src="/assets/icons/down-arrows.svg" alt=""></div>
+                        <button>SOBRE MIM</button>
+                    </a>
+                </div>
+            </div>
+            <div class="box-padrao">
+                <img src="/assets/home/image-homepage-profile.jpg" alt="">
+                <div id="sobre-mim" class="texto-padrao">
+                    <h2>Sobre mim</h2>
+                    <p>Sou um desenvolvedor front-end júnior procurando por uma oportunidade. Eu foco em escrever HTML
+                        acessível, usando práticas modernas de CSS e escrevendo um JavaScript limpo. Quando estou escrevendo
+                        código JavaScript, na maioria das vezes estou usando React, mas posso me adapta para qualquer
+                        ferramenta se necessário. Moro em Londres, UK, mas também seria feliz trabalhando remotamente e
+                        tenho experiência em times remotos. Quando não estou codando, poderá me achar fora de casa. Eu adoro
+                        estar próximo a natureza seja para uma caminhada, corrida ou ciclismo. Eu amaria se você desse uma
+                        olhada no meu trabalho.</p>
+                    <button>
+                        IR PARA PORTIFOLIO
+                    </button>
+                        
                 </div>
             </div>
         </div>
+        <div class="pre-footer">
+            <h2>Interessado em fazer projetos comigo?</h2>
+            <button>CONTATO</button>
+        </div>
     </div>
-
+    <footer>
+            <div class="menu menu-footer">
+                <ul>
+                    <li><img src="/assets/logo-light.svg" alt=""></li>
+                    <li> <a class="enter" href="#">HOME</a></li>
+                    <li> <a href="#">PORTIFOLIO</a></li>
+                    <li> <a href="#">CONTATO</a></li>
+                </ul>
+            </div>
+            <div class="sociais">
+                <li><img src="/assets/icons/github-light.svg" alt="github"></li>
+                <li><img src="/assets/icons/twitter-light.svg" alt="twitter"></li>
+                <li><img src="/assets/icons/linkedin-light.svg" alt="linkedin"></li>
+            </div>
+    </footer>
+    
 </body>
 
 </html>
